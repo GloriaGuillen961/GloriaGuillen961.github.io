@@ -1,0 +1,13 @@
+body {background-color: lightseagreen}
+p {font-family: monospace}
+nav ul li { display: block; 
+            float: left; width: 200px;}
+nav ul {float: left; width: 100%; }
+nav ul ul { background-color: mediumseagreen; 
+            padding: 0; text-align: left; display: none; }
+nav ul ul li { border: lpx solid limegreen; 
+                display: block; width: 7em; 
+                padding-left: 1em; margin-left: 0; }
+nav li:hover ul { display: block; }
+div {padding: 5px; margin: 10px;  
+     transform: rotate(-2deg); }
